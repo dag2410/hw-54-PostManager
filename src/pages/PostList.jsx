@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getPosts } from "../services/postsService";
+import { deletePost, getPosts } from "../services/postsService";
 import { createPostComment, getPostComments } from "../services/postsService";
 import { useNavigate } from "react-router-dom";
 
